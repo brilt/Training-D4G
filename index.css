@@ -1,0 +1,26 @@
+*, html, body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5vmin;
+    /*background-color: rgb(250, 250, 250);*/
+}
+
+
+
+article {
+	/*background-color: rgb(245, 245, 245);*/
+	border-style: solid;
+	border-color: rgb(238, 238, 238);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 15px;
+	display: inline-block;
+	max-width: 98vw;
+	min-width: 270px;
+}
+
+.rating{
+    background-color: rgb(202, 243, 212);
+    border-style: solid;
+    border-color: rgb(156, 233, 175);
+    border-radius: 50px;
+}

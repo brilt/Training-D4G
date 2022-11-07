@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
-<body>
+<body id = "body">
     <main>
-        <table>
-            <thead>
-              <tr>
-                <th>Famille Origine</th>
-                <th>Planet</th>
-                <th>People</th>
-                <th>prosperity</th>
-                <th>CRITERES</th>
-                
-              </tr>
-             </thead>
-             <tbody>
-               <tr>
-                 <td>STRATEGIE</td>
-                 <td>A</td>
-                 <td>A</td>
-                 <td>B</td>
-                 <td>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?</td>
-               </tr>
+        <article>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="category">STRATEGIE</td>
+                        <td class="rating rating_planet">A</td>
+                        <td class="rating rating_people">A</td>
+                        <td class="rating rating_prosperity">B</td>
+                        <td class="advice">Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?</td>
+                    </tr>
                
-            </tbody>
-          </table>
+                </tbody>
+            </table>
+        </article>
+      
+        <button id="123456789" class="add" >Add Button</button>
+        <button id="1234ddddd56789" class="add">Another add Button</button>
+        <button id="clickme">click to display stoage</button>
+
+
+
+        <p id="demo"></p>
+        <script src="gestio_panier.js"></script>
+        <p id="disp"></p>
+       
     </main>
 </body>
 </html>
