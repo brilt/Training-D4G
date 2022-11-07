@@ -10,6 +10,14 @@ for (var i = 0; i < buttons.length; i++) {
 */
 
 
+darkMode = document.getElementById('darkMode');
+function toggleDarkMode(){
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+darkMode.addEventListener('click',toggleDarkMode)
+
 buttons_add = document.getElementsByClassName('add');
 for (var i = 0; i < buttons_add.length; i++) {
     buttons_add[i].addEventListener('click',addPanier); //ajout d'un eventlistener sur tous les boutons add
@@ -36,7 +44,7 @@ function addPanier(ev){
     
     //alert(ev.target.id);
 }
-
+/*
 document.getElementById('clickme').addEventListener('click',display)
 function display(){
     //document.getElementById('body').style.backgroundColor = "blue";
@@ -44,7 +52,7 @@ function display(){
         console.log(localStorage.getItem(key));
         document.getElementById('disp').innerHTML += localStorage.getItem(key);
      });
-}
+}*/
 /*const button = document.getElementByTagName('button');
 button.addEventListener("click",(event) => {
     
