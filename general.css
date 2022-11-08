@@ -1,0 +1,12 @@
+*, html, body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5vmin;
+}
+body {
+	background-color: rgb(250, 250, 250);
+}
+
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
