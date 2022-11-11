@@ -6,40 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="general.css">
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script><!-- online js used for xlsx reading -->
     <title>Document</title>
 </head>
 <body id = "body" onload="testCache()">
-    <main>
+    <main id="main">
+        <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
         <article class="example">
-            <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
-            <div class="category"><p>CATEGORIE</p></div>
+            <div class="category">CATEGORIE</div>
             <div class="rating rating_planet"><img src="images/icon_planet.svg" alt="Icon planet"><p>Note Planète</p></div>
             <div class="rating rating_people"><img src="images/icon_person.svg" alt="Icon people"><p>Note People</p></div>
             <div class="rating rating_prosperity"><img src="images/icon_clock.svg" alt="Icon prosperity"><p>Note Prospérité</p></div>
             <div class="advice"><p>Recommandation</p></div>
         </article>
         <article>
-            <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
-            <div class="category"><p>STRATEGIE</p></div>
+            <div class="category">STRATEGIE</div>
             <div class="rating rating_planet"><img src="images/icon_planet.svg" alt="Icon planet"><p>A</p></div>
             <div class="rating rating_people"><img src="images/icon_person.svg" alt="Icon people"><p>A</p></div>
             <div class="rating rating_prosperity"><img src="images/icon_clock.svg" alt="Icon prosperity"><p>B</p></div>
             <div class="advice"><p>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?</p></div>
-            <button id="STR-1.01" class="add">0</button>
+            <button id="123456789" class="add">0</button>
         </article>
-        <article><a href="backup/test.html">index2</a></article>
+        <!--<article><a href="backup/test.html">index2</a></article>-->
       
         
-        <button id="1234ddddd56789" class="add" onload="console.log('hi2')">0</button>
-        <button id="darkMode">Toggle dark mode</button>
+        <button id="1234ddddd56789" class="add">0</button>
+
+
+        <button  class="add">0</button>
+        
+        
+
+        <button class="button_filter" onclick="filterBP('ARCHITECTURE')">ARCHITECTURE</button>
+        <button class="button_filter" onclick="filterBP('BACKEND')">BACKEND</button>
+        <button class="button_filter" onclick="filterBP('CONTENUS')">CONTENUS</button>
+        <button class="button_filter" onclick="filterBP('FRONTEND')">FRONTEND</button>
+        <button class="button_filter" onclick="filterBP('HERBERGEMENT')">HERBERGEMENT</button>
+        <button class="button_filter" onclick="filterBP('SPECIFICATIONS')">SPECIFICATIONS</button>
+        <button class="button_filter" onclick="filterBP('STRATEGIE')">STRATEGIE</button>
+        <button class="button_filter" onclick="filterBP('UX/UI')">UX/UI</button>
+        <button class="button_filter" onclick="filterBP('ALL')">Tout</button>
+
+        <div id="excel_data"></div>
+        <!--<button id="darkMode">Toggle dark mode</button>-->
         <!--<button id="clickme">click to display stoage</button>-->
 
 
 
-        <p id="demo"></p>
-        <script src="gestio_panier.js"></script>
-        <p id="disp"></p>
+        
+        
        
     </main>
 </body>
+<script src="gestio_panie2.js"></script>
 </html>
