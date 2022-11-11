@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="general.css">
     <title>Document</title>
 </head>
-<body id = "body">
+<body id = "body" onload="testCache()">
     <main>
         <article class="example">
             <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
@@ -25,11 +25,12 @@
             <div class="rating rating_people"><img src="images/icon_person.svg" alt="Icon people"><p>A</p></div>
             <div class="rating rating_prosperity"><img src="images/icon_clock.svg" alt="Icon prosperity"><p>B</p></div>
             <div class="advice"><p>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?</p></div>
+            <button id="STR-1.01" class="add">0</button>
         </article>
         <article><a href="backup/test.html">index2</a></article>
       
-        <button id="123456789" class="add" >0</button>
-        <button id="1234ddddd56789" class="add">0</button>
+        
+        <button id="1234ddddd56789" class="add" onload="console.log('hi2')">0</button>
         <button id="darkMode">Toggle dark mode</button>
         <!--<button id="clickme">click to display stoage</button>-->
 

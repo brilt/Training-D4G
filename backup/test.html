@@ -17,7 +17,7 @@
 </body>
 <script>
     const myImage = document.getElementById('img');
-    const imageUrl = "fleur.jpg"
+    
     
     /*fetch(imageUrl)
     //                         vvvv
@@ -29,7 +29,7 @@
         document.getElementById("img").innerHTML = "<img src="+imageObjectURL+">";
     });*/
 
-    fetch('data.xlsx').then(res => { 
+    fetch('cleaned-data.xlsx').then(res => { 
         return res.arrayBuffer();
     }).then(res => {
         console.log('file:', res);
