@@ -1,5 +1,5 @@
 //hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-fetch("/data/cleaned-data.json")
+fetch("Training-D4G/data/cleaned-data.json")
   .then((res) => {
     return res.json();
   })
