@@ -4,36 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="general.css">
-    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script><!-- online js used for xlsx reading -->
-    <title>Document</title>
+    <link rel="stylesheet" href="css/index.min.css">
+    <link rel="stylesheet" href="css/general.min.css">
+    <link rel="stylesheet" type="text/css" href="css/general.min.css" media="print">
+    
+    <title>Gestion bonnes pratiques éco-conception</title>
 </head>
-<body id = "body" onload="testCache()">
+<body id = "body">
     <main id="main">
         <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
         <article class="example">
-            <div class="category">CATEGORIE</div>
-            <div class="rating rating_planet"><img src="images/icon_planet.svg" alt="Icon planet"><p>Note Planète</p></div>
-            <div class="rating rating_people"><img src="images/icon_person.svg" alt="Icon people"><p>Note People</p></div>
-            <div class="rating rating_prosperity"><img src="images/icon_clock.svg" alt="Icon prosperity"><p>Note Prospérité</p></div>
-            <div class="advice"><p>Recommandation</p></div>
+            CATEGORIE Recommandation
         </article>
-        <article>
-            <div class="category">STRATEGIE</div>
-            <div class="rating rating_planet"><img src="images/icon_planet.svg" alt="Icon planet"><p>A</p></div>
-            <div class="rating rating_people"><img src="images/icon_person.svg" alt="Icon people"><p>A</p></div>
-            <div class="rating rating_prosperity"><img src="images/icon_clock.svg" alt="Icon prosperity"><p>B</p></div>
-            <div class="advice"><p>Les réunions sont-elles limitées au strict minimum, en privilégiant le distanciel, lorsque les réunions nécessitent des déplacements physiques ?</p></div>
-            <button id="123456789" class="add">0</button>
-        </article>
-        <!--<article><a href="backup/test.html">index2</a></article>-->
-      
-        
-        <button id="1234ddddd56789" class="add">0</button>
-
-
-        <button  class="add">0</button>
+       
         
         
 
@@ -45,6 +28,7 @@
         <button class="button_filter" onclick="filterBP('SPECIFICATIONS')">SPECIFICATIONS</button>
         <button class="button_filter" onclick="filterBP('STRATEGIE')">STRATEGIE</button>
         <button class="button_filter" onclick="filterBP('UX/UI')">UX/UI</button>
+        <button class="button_filter" onclick="filterBP('SELECTED')">Selectionnés</button>
         <button class="button_filter" onclick="filterBP('ALL')">Tout</button>
 
         <div id="excel_data"></div>
@@ -58,5 +42,5 @@
        
     </main>
 </body>
-<script src="gestio_panie2.js"></script>
+<script src="javascript/fetch-json.js"></script>
 </html>

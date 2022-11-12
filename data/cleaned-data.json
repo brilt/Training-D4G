@@ -1,6 +1,6 @@
 [
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.01",
   "Planet": "A",
   "People": "A",
@@ -13,7 +13,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.02",
   "Planet": "A",
   "People": "A",
@@ -26,7 +26,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C01",
   "Planet": "B",
   "People": "A",
@@ -34,7 +34,7 @@
   "critere": "L'entreprise est-elle ouverte à une démarche NR qui pourrait fédérer les énergies autour d'un projet novateur ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C02",
   "Planet": "B",
   "People": "B",
@@ -42,7 +42,7 @@
   "critere": "Est-ce que les stratégies RSE et NR sont associées et systématiquement mises en oeuvre dans tous les projets ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.03",
   "Planet": "B",
   "People": "A",
@@ -55,13 +55,13 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.04",
   "Planet": "A",
   "People": "B",
   "prosperity": "A",
   "critere": "Le besoin métier est-il exprimé ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProductOwner ;",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Expression rédigée et validée = 100 ; Expression formalisée = 75 ; Tacite = 30 ; Non = 0",
@@ -69,7 +69,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.05",
   "Planet": "B",
   "People": "A",
@@ -79,7 +79,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.06",
   "Planet": "B",
   "People": "C",
@@ -89,12 +89,12 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.07",
   "Planet": "A",
   "People": "B",
   "prosperity": "A",
-  "critere": "L’ensemble des produits et services sont-ils indispensables en ligne ? \n",
+  "critere": "L’ensemble des produits et services sont-ils indispensables en ligne ? ",
   "acteurs": "ProductOwner ;",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Abordée = 100 ; Partielle = 50 ; Non traitée = 0",
@@ -102,7 +102,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.08",
   "Planet": "A",
   "People": "B",
@@ -115,7 +115,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.09",
   "Planet": "A",
   "People": "B",
@@ -128,7 +128,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C03",
   "Planet": "A",
   "People": "B",
@@ -136,7 +136,7 @@
   "critere": "Le modèle économique de ce service prend-il en compte l'éco-conception ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C04",
   "Planet": "B",
   "People": "B",
@@ -144,7 +144,7 @@
   "critere": "Les aspects performances, accessibilité, sécurité et sobriété sont-ils pris en compte ensemble ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.10",
   "Planet": "B",
   "People": "B",
@@ -157,7 +157,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C05",
   "Planet": "B",
   "People": "B",
@@ -165,7 +165,7 @@
   "critere": "Le NR est-il inscrit dans la stratégie et les objectifs de l'organisation ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C06",
   "Planet": "B",
   "People": "B",
@@ -173,7 +173,7 @@
   "critere": "L'attente du marché, clients, fournisseurs, partenaires est-elle en phase avec une démarche NR ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C07",
   "Planet": "B",
   "People": "B",
@@ -181,7 +181,7 @@
   "critere": "Les enjeux et bénéfices attendus sont-ils bien identifiés ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C08",
   "Planet": "B",
   "People": "A",
@@ -189,7 +189,7 @@
   "critere": "L'organisation est-elle en mesure de faire progresser son niveau de maturité vis à vis de l’éco conception et de son périmètre, avec la réalisation de projets NR ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C09",
   "Planet": "B",
   "People": "B",
@@ -197,7 +197,7 @@
   "critere": "Un audit de l'existant est-il disponible pour en améliorer les performances NR ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.11",
   "Planet": "B",
   "People": "B",
@@ -210,7 +210,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.12",
   "Planet": "B",
   "People": "C",
@@ -223,7 +223,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.13",
   "Planet": "A",
   "People": "A",
@@ -236,7 +236,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.C10",
   "Planet": "B",
   "People": "B",
@@ -244,7 +244,7 @@
   "critere": "Les sponsors et éventuelles résistances de la démarche NR sont-ils identifiés ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.14",
   "Planet": "B",
   "People": "A",
@@ -257,7 +257,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.15",
   "Planet": "B",
   "People": "B",
@@ -270,13 +270,13 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-1.16",
   "Planet": "A",
   "People": "A",
   "prosperity": "A",
   "critere": "Le besoin couvert par le service numérique s'inscrit-il dans l'un des objectifs de développement durable?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProjectMngr ; ProductOwner ; RSE\/NR ;",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Au moins 1 ODD couvert = 100 ; 0 ODD = 0",
@@ -284,7 +284,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.01",
   "Planet": "A",
   "People": "A",
@@ -297,7 +297,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.02",
   "Planet": "A",
   "People": "A",
@@ -310,7 +310,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.03",
   "Planet": "A",
   "People": "A",
@@ -323,13 +323,13 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.04",
   "Planet": "A",
   "People": "A",
   "prosperity": "B",
   "critere": "Les parties prenantes internes et externes sont-elles sensibilisées, voire formées\/certifiées au NR ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProjectMngr ; Manager ; RSE\/NR ; HR ; ITMngr",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Sensibilisations NR",
@@ -337,7 +337,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.C01",
   "Planet": "B",
   "People": "A",
@@ -345,7 +345,7 @@
   "critere": "Les équipes ont-elle été questionnées en amont du lancement du projet, l'impact a-t-il été évalué et communiqué?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.C02",
   "Planet": "B",
   "People": "A",
@@ -353,7 +353,7 @@
   "critere": "Chaque partie-prenante interne et externe a-t-elle la latitude de prendre des décisions pouvant influer sur l'impact du Numérique Responsable ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.C03",
   "Planet": "A",
   "People": "B",
@@ -361,7 +361,7 @@
   "critere": "Mes cibles peuvent-elles adhérer à ma démarche NR et de quelle manière ? "
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.05",
   "Planet": "B",
   "People": "B",
@@ -374,7 +374,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-2.C04",
   "Planet": "B",
   "People": "A",
@@ -382,7 +382,7 @@
   "critere": "Les aspects Numérique Responsable sont-ils propagés et entretenus sur l'ensemble des acteurs ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.01",
   "Planet": "A",
   "People": "C",
@@ -395,7 +395,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.02",
   "Planet": "A",
   "People": "B",
@@ -408,7 +408,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.03",
   "Planet": "B",
   "People": "B",
@@ -421,7 +421,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.04",
   "Planet": "B",
   "People": "B",
@@ -434,7 +434,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C01",
   "Planet": "B",
   "People": "C",
@@ -442,7 +442,7 @@
   "critere": "Comment sont gérées les phases de fin de vie, dès le début ou à la fin d'un projet ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C02",
   "Planet": "C",
   "People": "C",
@@ -450,7 +450,7 @@
   "critere": "La prise de conscience des \"coûts de non-qualité\" est-elle partagée par toutes les parties prenantes internes ? "
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.05",
   "Planet": "A",
   "People": "B",
@@ -463,7 +463,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.06",
   "Planet": "A",
   "People": "B",
@@ -476,7 +476,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C03",
   "Planet": "B",
   "People": "B",
@@ -484,7 +484,7 @@
   "critere": "Les outils pour mesurer l'efficacité de ma démarche NR sont-ils identifiés et communiqués ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.07",
   "Planet": "B",
   "People": "B",
@@ -494,7 +494,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C04",
   "Planet": "B",
   "People": "A",
@@ -502,7 +502,7 @@
   "critere": "Est ce que les expériences des projets passés sont prises en compte ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C05",
   "Planet": "B",
   "People": "A",
@@ -510,7 +510,7 @@
   "critere": "Est-il prévu de capitaliser l'expérience de ce projet pour le futur?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.C06",
   "Planet": "B",
   "People": "B",
@@ -518,13 +518,13 @@
   "critere": "Les indicateurs couvrent-ils les éléments pour mesurer, évaluer et estimer le niveau de maturité NR, le piloter, l’améliorer et le contrôler ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-3.08",
   "Planet": "A",
   "People": "A",
   "prosperity": "B",
   "critere": "La conformité numérique responsable est-elle exposée ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProjectMngr ; ProductOwner ; RSE\/NR ;",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Document validé et exposé = 100 ; Partiel = 50 ; Prévu = 25 ; Non = 0",
@@ -532,7 +532,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C01",
   "Planet": "B",
   "People": "B",
@@ -540,7 +540,7 @@
   "critere": "En dehors des éléments constituant le service numérique, quels sont les services annexes nécessaires : technologie tiers \/ open source, hébergement vert, agence digitale éco-responsable ... ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C02",
   "Planet": "A",
   "People": "B",
@@ -548,7 +548,7 @@
   "critere": "Chaque fonction du service est-elle appréhendée en regard de son importance dans le service ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.01",
   "Planet": "C",
   "People": "C",
@@ -561,7 +561,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.02",
   "Planet": "C",
   "People": "C",
@@ -571,7 +571,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C03",
   "Planet": "B",
   "People": "B",
@@ -579,7 +579,7 @@
   "critere": "Est ce que le choix de solutions Open Source est privilégié ? "
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C04",
   "Planet": "B",
   "People": "B",
@@ -587,7 +587,7 @@
   "critere": "Les outils intégrés (CMS, frameworks, ...), ou les développements internes, apportent-ils des éléments positifs vis à vis de la démarche NR ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C05",
   "Planet": "B",
   "People": "B",
@@ -595,7 +595,7 @@
   "critere": "Quelle est la technologie adhèrant aux principes NR la plus appropriée à mes besoins ? "
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C06",
   "Planet": "B",
   "People": "B",
@@ -603,7 +603,7 @@
   "critere": "Dans le cas d'un développement interne (CMS, Framework, ...), quelle est la pertinence de le retravailler sous l'angle d'une optimisation NR, si la démarche NR est peu maîtrisée et le projet déjà avancé ?"
  },
  {
-  "Famille Origine\n": "STRATEGIE",
+  "Famille Origine": "STRATEGIE",
   "ID": "STR-4.C07",
   "Planet": "B",
   "People": "B",
@@ -611,13 +611,13 @@
   "critere": "Comment choisir les solutions techniques les plus propices au NR ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.01",
   "Planet": "A",
   "People": "A",
   "prosperity": "B",
   "critere": "Les enjeux NR du projet ont-ils été communiqués à l'équipe dès l'origine ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProjectMngr ; ProductOwner ; Manager ; RSE\/NR ;  ITMngr",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Enjeux NR communiqués",
@@ -625,7 +625,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.02",
   "Planet": "A",
   "People": "A",
@@ -638,7 +638,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.C01",
   "Planet": "A",
   "People": "B",
@@ -646,13 +646,13 @@
   "critere": "Quelle approche éditoriale est prévue pour sensibiliser les clients au NR ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.03",
   "Planet": "B",
   "People": "A",
   "prosperity": "B",
   "critere": "Chaque entité de l'équipe Projet dispose-t-elle des compétences NR ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "ProjectMngr ; ProductOwner ; Manager ; ITMngr ;",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Plan de formation NR = 100 ; Mise à dispo de ressources NR = 50 ; Non = 0",
@@ -660,7 +660,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.04",
   "Planet": "A",
   "People": "B",
@@ -673,7 +673,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-1.C02",
   "Planet": "B",
   "People": "A",
@@ -681,7 +681,7 @@
   "critere": "Chaque partie-prenante a-t-elle la latitude de prendre des décisions pouvant influer sur l'impact environnemental ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-2.C01",
   "Planet": "B",
   "People": "B",
@@ -689,7 +689,7 @@
   "critere": "La définition des besoins est-elle réalisée en consultant les utilisateurs finaux ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-2.C02",
   "Planet": "A",
   "People": "B",
@@ -697,7 +697,7 @@
   "critere": "Transmettez-vous une pédagogie NR aux utilisateurs ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-2.C03",
   "Planet": "B",
   "People": "A",
@@ -705,7 +705,7 @@
   "critere": "Les aspects NR sont-ils propagés et entretenus sur l'ensemble des acteurs ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-2.01",
   "Planet": "B",
   "People": "B",
@@ -715,7 +715,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-2.02",
   "Planet": "B",
   "People": "B",
@@ -725,7 +725,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.C01",
   "Planet": "B",
   "People": "B",
@@ -733,7 +733,7 @@
   "critere": "Les étapes de revue NR sont-elles incluses dans la méthodologie ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.01",
   "Planet": "A",
   "People": "B",
@@ -746,13 +746,13 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.02",
   "Planet": "B",
   "People": "B",
   "prosperity": "B",
   "critere": "Quelle proportion des fonctionnalités (User Story) ont une composante NR ? ",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "Dev ; Designer ; ProjectMngr ; ProductOwner",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Nombre US avec info NR",
@@ -760,7 +760,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.C02",
   "Planet": "B",
   "People": "B",
@@ -768,7 +768,7 @@
   "critere": "Quelle est la fréquence de revue\/validation des éléments NR, sur un mode similaire aux revues et validation \"Sécurité\" ? "
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.03",
   "Planet": "B",
   "People": "B",
@@ -778,7 +778,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.C03",
   "Planet": "C",
   "People": "B",
@@ -786,7 +786,7 @@
   "critere": "L'utilisation d'intégration continue est-elle généralisée ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.04",
   "Planet": "C",
   "People": "B",
@@ -799,7 +799,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.C04",
   "Planet": "B",
   "People": "B",
@@ -807,7 +807,7 @@
   "critere": "Les exigences non fonctionnelles (User Story) sont-elles traitées de la même manière pour les aspects NR, sécurité et accessibilité ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-3.05",
   "Planet": "B",
   "People": "B",
@@ -817,7 +817,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.01",
   "Planet": "A",
   "People": "B",
@@ -830,7 +830,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.02",
   "Planet": "B",
   "People": "B",
@@ -840,7 +840,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.03",
   "Planet": "B",
   "People": "B",
@@ -853,7 +853,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.04",
   "Planet": "B",
   "People": "A",
@@ -863,7 +863,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.C01",
   "Planet": "A",
   "People": "B",
@@ -871,7 +871,7 @@
   "critere": "La nécessité d'une fonctionnalité est-elle validée en rapport avec son impact NR ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.05",
   "Planet": "B",
   "People": "A",
@@ -881,7 +881,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.C02",
   "Planet": "C",
   "People": "A",
@@ -889,7 +889,7 @@
   "critere": "Les orientations du service ne sont-elles pas basées sur les effets d'addiction artificiels ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.C03",
   "Planet": "B",
   "People": "A",
@@ -897,7 +897,7 @@
   "critere": "Les interfaces utilisateurs et techniques sont-elles conçues pour être efficaces du point de vue NR ? "
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.06",
   "Planet": "C",
   "People": "A",
@@ -907,7 +907,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.07",
   "Planet": "C",
   "People": "B",
@@ -920,7 +920,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.08",
   "Planet": "C",
   "People": "B",
@@ -933,7 +933,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.C04",
   "Planet": "B",
   "People": "B",
@@ -941,7 +941,7 @@
   "critere": "Les solutions techniques retenues sont-elles pilotées par l'usage plutôt que par l'intérêt technique ?"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.09",
   "Planet": "B",
   "People": "A",
@@ -954,7 +954,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-4.10",
   "Planet": "A",
   "People": "A",
@@ -967,7 +967,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.01",
   "Planet": "B",
   "People": "B",
@@ -977,13 +977,13 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.02",
   "Planet": "B",
   "People": "C",
   "prosperity": "B",
   "critere": "Dans le processus d'achat (Appel d'offre) des exigences d'engagement NR sont-elles demandées aux prestataires externes ?",
-  " incontournable": "INCONTOURNABLE",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "Manager ; RSE\/NR ; HR ; ITMngr",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Exigences NR dans AO",
@@ -991,7 +991,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.03",
   "Planet": "B",
   "People": "B",
@@ -1004,7 +1004,7 @@
   "Priorité": "Low"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.04",
   "Planet": "B",
   "People": "B",
@@ -1017,7 +1017,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.05",
   "Planet": "B",
   "People": "A",
@@ -1030,7 +1030,7 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.06",
   "Planet": "B",
   "People": "B",
@@ -1043,13 +1043,13 @@
   "Priorité": "High"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.07",
   "Planet": "A",
   "People": "B",
   "prosperity": "A",
-  "critere": "Les données et procédures spécifiées ont-elles toutes une information de fin de vie ?\n",
-  " incontournable": "INCONTOURNABLE",
+  "critere": "Les données et procédures spécifiées ont-elles toutes une information de fin de vie ?",
+  "incontournable": "INCONTOURNABLE",
   "acteurs": "Dev ; Designer ; ProjectMngr ; ProductOwner",
   "indicateur": "(X \/ Y ) * 100",
   "X indicateurs": "Formalisés = 100 ; prévus = 75 ; Identifiés = 50 ; Non = 0",
@@ -1057,7 +1057,7 @@
   "Priorité": "Medium"
  },
  {
-  "Famille Origine\n": "SPECIFICATIONS",
+  "Famille Origine": "SPECIFICATIONS",
   "ID": "SPC-5.08",
   "Planet": "A",
   "People": "B",
