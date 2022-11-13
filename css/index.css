@@ -61,19 +61,15 @@ img {
 }
 
 .modal-container {
-/*display: none;*/
-visibility: hidden;
+display: none;
 position: fixed;
 top: 0;
 width: 100vw;
 height: 100vh;
-transition: visibility 0.4s;
 }
 
 .modal-container.active {
-	/*display: block; */
-	transition: visibility 0s;
-	visibility: visible;
+	display: block; 
 }
 
 .overlay {
