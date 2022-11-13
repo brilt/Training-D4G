@@ -1,10 +1,11 @@
-
+json = new Array();
 fetch("data/cleaned-data.json")
   .then((res) => {
     return res.json();
   })
   .then((data) => {
     data.forEach((bp) => {
+      json.push(bp);
       var table_output = document.createElement("article");
 
       table_output.classList.add("advice");
@@ -25,7 +26,6 @@ fetch("data/cleaned-data.json")
 
       if (localStorage.getItem(table_output.id) !== null) {
         table_output.classList.toggle("PANIER");
-        
       }
 
       document.getElementById("excel_data").appendChild(table_output);
@@ -35,7 +35,7 @@ fetch("data/cleaned-data.json")
     bp_add = document.getElementsByClassName("add");
 
     for (var i = 0; i < bp_add.length; i++) {
-      
+
       currentBp = bp_add[i];
       if (currentBp.classList.contains("incontournable")) {
         localStorage.setItem(currentBp.id, JSON.stringify(currentBp.id));
@@ -52,7 +52,23 @@ fetch("data/cleaned-data.json")
       }
       document.getElementById(ev.target.id).classList.toggle("PANIER");
     }
-  });
+  }) /* Ajout ; */
+  .then((res) => {
+    json.forEach((bp) => {
+
+      if (localStorage.getItem(bp["ID"]) === null) {
+
+      }
+
+      function addDetails(ev) {
+        if (localStorage.getItem(ev.target.id) === null) {
+          details.appendChild(
+            document.createTextNode(bp["Priorité"] + " " + bp["acteurs"])
+          );
+        }
+      }
+    });
+  }); /* Ajout */
 
 function filterBP(filter) {
   var bps = document.querySelectorAll("article");
@@ -70,6 +86,7 @@ function filterBP(filter) {
   });
 }
 
+/* Ajout */
 const modalContainer = document.querySelector(".modal-container");
 const modalTriggers = document.querySelectorAll(".modal-trigger");
 
@@ -78,3 +95,12 @@ modalTriggers.forEach(trigger => trigger.addEventListener("click", toggleModal))
 function toggleModal() {
   modalContainer.classList.toggle("active")
 }
+
+
+/* Ajout */
+
+/* Ajout
+table_output.appendChild(
+  document.createTextNode(bp["Priorité"] + " " + bp["acteurs"])
+);
+/* Ajout */
