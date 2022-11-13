@@ -1,5 +1,5 @@
 
-fetch("data/cleaned-data.json")
+fetch("data/data_selectionnes1.json")
   .then((res) => {
     return res.json();
   })
