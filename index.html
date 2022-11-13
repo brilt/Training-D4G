@@ -7,7 +7,7 @@
     <meta name="description" content="Tool to monitor your website development project">
 
 
-    <link rel="stylesheet" href="./css/index.min.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/general.min.css">
     <link rel="stylesheet" type="text/css" href="./css/general.min.css" media="print">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
@@ -22,8 +22,19 @@
         </article>
        
         
-        
+        <div class="modal-container">
+            <div class="overlay modal-trigger"></div>
+            <div class="modal">
+                <button class="close-modal trigger">X</button>
+                <h1>Voici du contenu</h1>
+                <p>Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
 
+        <button class="modal-btn modal-trigger">Détails</button>   
+        <p>
+        
         <button class="button_filter" onclick="filterBP('ARCHITECTURE')">ARCHITECTURE</button>
         <button class="button_filter" onclick="filterBP('BACKEND')">BACKEND</button>
         <button class="button_filter" onclick="filterBP('CONTENUS')">CONTENUS</button>
@@ -32,13 +43,13 @@
         <button class="button_filter" onclick="filterBP('SPECIFICATIONS')">SPECIFICATIONS</button>
         <button class="button_filter" onclick="filterBP('STRATEGIE')">STRATEGIE</button>
         <button class="button_filter" onclick="filterBP('UX/UI')">UX/UI</button>
-        <button class="button_filter" onclick="filterBP('SELECTED')">Panier</button>
-        <button class="button_filter" onclick="filterBP('ALL')">Tout</button>
+        <button class="button_filter" onclick="filterBP('ALL')">All</button>
+        <button class="button_filter" onclick="filterBP('PANIER')">Panier</button>
+     
 
         <div id="excel_data"></div>
         <!--<button id="darkMode">Toggle dark mode</button>-->
         <!--<button id="clickme">click to display stoage</button>-->
-
 
 
         
@@ -46,5 +57,5 @@
        
     </main>
 </body>
-<script src="./javascript/fetch-json-minimized.js"></script>
+<script src="./javascript/fetch-json.js"></script>
 </html>

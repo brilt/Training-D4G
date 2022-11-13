@@ -18,13 +18,13 @@ fetch("data/cleaned-data.json")
 
       if (bp.hasOwnProperty("incontournable")) {
         table_output.classList.add("incontournable");
-        table_output.classList.add("SELECTED");
+        table_output.classList.add("PANIER");
       } else {
         table_output.classList.add("facultatif");
       }
 
       if (localStorage.getItem(table_output.id) !== null) {
-        table_output.classList.toggle("SELECTED");
+        table_output.classList.toggle("PANIER");
         
       }
 
@@ -39,7 +39,7 @@ fetch("data/cleaned-data.json")
       currentBp = bp_add[i];
       if (currentBp.classList.contains("incontournable")) {
         localStorage.setItem(currentBp.id, JSON.stringify(currentBp.id));
-        currentBp.classList.add("SELECTED");
+        currentBp.classList.add("PANIER");
       } else {
         currentBp.addEventListener("click", addPanier);
       }
@@ -50,7 +50,7 @@ fetch("data/cleaned-data.json")
       } else {
         localStorage.removeItem(ev.target.id);
       }
-      document.getElementById(ev.target.id).classList.toggle("SELECTED");
+      document.getElementById(ev.target.id).classList.toggle("PANIER");
     }
   });
 
@@ -68,4 +68,13 @@ function filterBP(filter) {
     }
 
   });
+}
+
+const modalContainer = document.querySelector(".modal-container");
+const modalTriggers = document.querySelectorAll(".modal-trigger");
+
+modalTriggers.forEach(trigger => trigger.addEventListener("click", toggleModal))
+
+function toggleModal() {
+  modalContainer.classList.toggle("active")
 }
