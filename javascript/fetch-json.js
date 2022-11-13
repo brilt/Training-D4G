@@ -4,12 +4,13 @@ fetch("data/cleaned-data.json")
     return res.json();
   })
   .then((data) => {
+    console.log(data);
     data.forEach((bp) => {
       var table_output = document.createElement("article");
 
       table_output.classList.add("advice");
       table_output.appendChild(
-        document.createTextNode(bp["Famille Origine"] + " " + bp["critere"])
+        document.createTextNode(["-"] + bp["Famille Origine"] + "- " + bp["critere"])
       );
       table_output.classList.add(bp["Famille Origine"]);
 
@@ -55,17 +56,23 @@ fetch("data/cleaned-data.json")
   });
 
 function filterBP(filter) {
+  
   var bps = document.querySelectorAll("article");
 
   bps.forEach((bp) => {
-    bp.style.display = "inline-block";
+    bp.style.display = "block";
 
     if (!bp.classList.contains(filter) && bp.className != "example") {
       bp.style.display = "none";
     }
     if (filter == "ALL") {
-      bp.style.display = "inline-block";
+      bp.style.display = "block";
     }
 
   });
+}
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
 }

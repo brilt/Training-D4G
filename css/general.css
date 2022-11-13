@@ -1,14 +1,130 @@
 *, html, body {
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 2vmin;
+	font-size: 3vmin;
 	line-height: 1.3em;
 }
 body {
-	background-color: rgb(250, 250, 250);
+	background-color: rgb(245, 245, 245);
+
 }
 
+/*-------------------- BARE DE FILTRES --------------------*/
+
+#filter_bar {
+	text-align: center;
+	background-color: rgb(8, 26, 80);
+	padding: 0.3em;
+	min-width: 270px;
+}
+
+h1 {
+	color: white;
+}
+
+/*- Boutons filtres -*/
+.button_filter {
+	background-color: rgb(8, 26, 80);
+	color: white;
+	border-style: solid;
+	border-color: rgb(8, 26, 80);
+	border-width: 0.2em;
+	margin: 0.2em 0.5em;
+	padding: 0.3em 0.5em;
+}
+.button_filter:hover {
+	border-color: rgb(43, 59, 106);
+	border-width: 0.2em;
+	background-color: rgb(43, 59, 106);
+}
+.button_filter:focus{
+	border-color: white;
+	border-width: 0.2em;
+	background-color: rgb(43, 59, 106);
+}
+
+/*- Bouton darck mode -*/
+#darkMode {
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	background-color: rgb(249, 252, 255);
+	padding: 0.1em 0.3em;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	display: flex;
+	font-size: 0.9em;
+	font-style: italic;
+}
+#darkMode:hover {
+	background-color: rgb(8, 26, 80);
+	border-style: solid;
+	color: white;
+	border-color: white;
+}
+
+/*-------------------- BONNES PRATIQUES --------------------*/
+
+article {
+	border-style: solid;
+	border-color: rgb(161, 161, 161);
+	border-radius: 6px;
+	border-width: 0.15em;
+	padding: 1em;
+	margin: 1.5em;
+	max-width: 98vw;
+	min-width: 270px;
+	display: block;
+}
+.SELECTED {									
+	background-color: rgb(8, 26, 80);
+	border-color: rgb(8, 26, 80);	
+	color: white;
+}
+.incontournable {
+	color: white;
+	background-color: rgb(8, 26, 80);
+	border-color: rgb(227, 204, 28);
+	border-width: 0.4em;
+	
+}
+.facultatif.add:hover { /*only buttons on non-incontournable elements*/
+	background-color: rgb(222, 224, 234);
+	color: black;
+}
+
+
+/*-------------------- DARK MODE --------------------*//*-------------------- DARK MODE --------------------*//*-------------------- DARK MODE --------------------*/
 .dark-mode {
 	background-color: black;
 	color: white;
   }
 
+  /*- Bouton darck mode -*/
+.dark-mode #darkMode {
+	background-color: rgb(8, 26, 80);
+	color: white;
+	border-color: white;	
+}
+.dark-mode #darkMode:hover {
+	border-color: white;
+	background-color: rgb(249, 252, 255);
+	color: black;
+}
+
+/*-------------------- BONNES PRATIQUES --------------------*/
+.dark-mode article {
+	border-color: rgb(219, 219, 219);
+  }
+.dark-mode .SELECTED {									
+	background-color: rgb(8, 26, 80);
+	border-color: rgb(8, 26, 80);	
+	color: white;
+}
+.dark-mode .incontournable {
+	border-color: rgb(188, 150, 26);
+}
+.dark-mode .facultatif.add:hover { /*only buttons on non-incontournable elements*/
+	background-color: rgb(5, 18, 57);
+	color: white;
+}
