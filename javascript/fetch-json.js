@@ -19,13 +19,13 @@ fetch("data/data_selectionnes1.json")
 
       if (bp.hasOwnProperty("incontournable")) {
         table_output.classList.add("incontournable");
-        table_output.classList.add("SELECTED");
+        table_output.classList.add("BASKET");
       } else {
         table_output.classList.add("facultatif");
       }
 
       if (localStorage.getItem(table_output.id) !== null) {
-        table_output.classList.toggle("SELECTED");
+        table_output.classList.toggle("BASKET");
         
       }
 
@@ -40,7 +40,7 @@ fetch("data/data_selectionnes1.json")
       currentBp = bp_add[i];
       if (currentBp.classList.contains("incontournable")) {
         localStorage.setItem(currentBp.id, JSON.stringify(currentBp.id));
-        currentBp.classList.add("SELECTED");
+        currentBp.classList.add("BASKET");
       } else {
         currentBp.addEventListener("click", addPanier);
       }
@@ -51,7 +51,7 @@ fetch("data/data_selectionnes1.json")
       } else {
         localStorage.removeItem(ev.target.id);
       }
-      document.getElementById(ev.target.id).classList.toggle("SELECTED");
+      document.getElementById(ev.target.id).classList.toggle("BASKET");
     }
   });
 

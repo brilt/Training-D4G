@@ -76,7 +76,7 @@ article {
 	min-width: 270px;
 	display: block;
 }
-.SELECTED {									
+.BASKET {									
 	background-color: rgb(8, 26, 80);
 	border-color: rgb(8, 26, 80);	
 	color: white;
@@ -116,7 +116,7 @@ article {
 .dark-mode article {
 	border-color: rgb(219, 219, 219);
   }
-.dark-mode .SELECTED {									
+.dark-mode .BASKET {									
 	background-color: rgb(8, 26, 80);
 	border-color: rgb(8, 26, 80);	
 	color: white;
