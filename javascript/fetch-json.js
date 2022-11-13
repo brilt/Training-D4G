@@ -18,15 +18,13 @@ fetch("data/cleaned-data.json")
 
       if (bp.hasOwnProperty("incontournable")) {
         table_output.classList.add("incontournable");
-        table_output.classList.add("changeColor");
         table_output.classList.add("SELECTED");
       } else {
         table_output.classList.add("facultatif");
       }
 
       if (localStorage.getItem(table_output.id) !== null) {
-        table_output.classList.toggle("changeColor");
-        table_output.classList.add("SELECTED");
+        table_output.classList.toggle("SELECTED");
         
       }
 
@@ -41,7 +39,7 @@ fetch("data/cleaned-data.json")
       currentBp = bp_add[i];
       if (currentBp.classList.contains("incontournable")) {
         localStorage.setItem(currentBp.id, JSON.stringify(currentBp.id));
-        currentBp.classList.add("changeColor");
+        currentBp.classList.add("SELECTED");
       } else {
         currentBp.addEventListener("click", addPanier);
       }
@@ -49,11 +47,10 @@ fetch("data/cleaned-data.json")
     function addPanier(ev) {
       if (localStorage.getItem(ev.target.id) === null) {
         localStorage.setItem(ev.target.id, JSON.stringify(ev.target.id));
-        document.getElementById(ev.target.id).classList.add("SELECTED");
       } else {
         localStorage.removeItem(ev.target.id);
       }
-      document.getElementById(ev.target.id).classList.toggle("changeColor");
+      document.getElementById(ev.target.id).classList.toggle("SELECTED");
     }
   });
 

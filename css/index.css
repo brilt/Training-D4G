@@ -79,7 +79,7 @@ div, p {
 	background-color: rgb(16, 16, 16);
 }
 
-.changeColor {
+.SELECTED {
 	background-color: rgb(81, 114, 192);
 	/*color: rgb(81, 114, 192);*/
 	border-color: rgb(81, 114, 192);
