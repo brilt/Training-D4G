@@ -1,4 +1,4 @@
-//hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
 fetch("data/cleaned-data.json")
   .then((res) => {
     return res.json();
@@ -19,6 +19,7 @@ fetch("data/cleaned-data.json")
       if (bp.hasOwnProperty("incontournable")) {
         table_output.classList.add("incontournable");
         table_output.classList.add("changeColor");
+        table_output.classList.add("SELECTED");
       } else {
         table_output.classList.add("facultatif");
       }
