@@ -1,200 +1,137 @@
-*, html, body {
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 3vmin;
-	line-height: 1.3em;
+*,
+html,
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 3vmin;
+  line-height: 1.3em;
 }
 body {
-	background-color: rgb(245, 245, 245);
-
+  background-color: rgb(245, 245, 245);
 }
 
 /*-------------------- BARE DE FILTRES --------------------*/
 
 #filter_bar {
-	text-align: center;
-	background-color: rgb(8, 26, 80);
-	padding: 0.3em;
-	min-width: 270px;
+  text-align: center;
+  background-color: rgb(8, 26, 80);
+  padding: 0.3em;
+  min-width: 270px;
 }
 
 h1 {
-	color: white;
+  color: white;
 }
 
 /*- Boutons filtres -*/
 .button_filter {
-	background-color: rgb(8, 26, 80);
-	color: white;
-	border-style: solid;
-	border-color: rgb(8, 26, 80);
-	border-width: 0.2em;
-	margin: 0.2em 0.5em;
-	padding: 0.3em 0.5em;
+  background-color: rgb(8, 26, 80);
+  color: white;
+  border-style: solid;
+  border-color: rgb(8, 26, 80);
+  border-width: 0.2em;
+  margin: 0.2em 0.5em;
+  padding: 0.3em 0.5em;
 }
 .button_filter:hover {
-	border-color: rgb(43, 59, 106);
-	border-width: 0.2em;
-	background-color: rgb(43, 59, 106);
+  border-color: rgb(43, 59, 106);
+  border-width: 0.2em;
+  background-color: rgb(43, 59, 106);
 }
-.button_filter:focus{
-	border-color: white;
-	border-width: 0.2em;
-	background-color: rgb(43, 59, 106);
+.button_filter:focus {
+  border-color: white;
+  border-width: 0.2em;
+  background-color: rgb(43, 59, 106);
 }
 
 /*- Bouton darck mode -*/
 #darkMode {
-	border-style: solid;
-	border-color: white;
-	border-radius: 5px;
-	background-color: rgb(249, 252, 255);
-	padding: 0.1em 0.3em;
-	position: absolute;
-	right: 1em;
-	top: 1em;
-	display: flex;
-	font-size: 0.9em;
-	font-style: italic;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  background-color: rgb(249, 252, 255);
+  padding: 0.1em 0.3em;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  display: flex;
+  font-size: 0.9em;
+  font-style: italic;
 }
 #darkMode:hover {
-	background-color: rgb(8, 26, 80);
-	border-style: solid;
-	color: white;
-	border-color: white;
+  background-color: rgb(8, 26, 80);
+  border-style: solid;
+  color: white;
+  border-color: white;
 }
 
 /*-------------------- BONNES PRATIQUES --------------------*/
 
 article {
-	border-style: solid;
-	border-color: rgb(161, 161, 161);
-	border-radius: 6px;
-	border-width: 0.15em;
-	padding: 1em;
-	margin: 1.5em;
-	max-width: 98vw;
-	min-width: 270px;
-	display: block;
+  border-style: solid;
+  border-color: rgb(161, 161, 161);
+  border-radius: 6px;
+  border-width: 0.15em;
+  padding: 1em;
+  margin: 1.5em;
+  max-width: 98vw;
+  min-width: 270px;
+  display: block;
 }
-.BASKET {									
-	background-color: rgb(8, 26, 80);
-	border-color: rgb(8, 26, 80);	
-	color: white;
+.BASKET {
+  background-color: rgb(8, 26, 80);
+  border-color: rgb(8, 26, 80);
+  color: white;
 }
 .incontournable {
-	color: white;
-	background-color: rgb(8, 26, 80);
-	border-color: rgb(227, 204, 28);
-	border-width: 0.4em;
-	
+  color: white;
+  background-color: rgb(8, 26, 80);
+  border-color: rgb(227, 204, 28);
+  border-width: 0.4em;
 }
-.facultatif.add:hover { /*only buttons on non-incontournable elements*/
-	background-color: rgb(222, 224, 234);
-	color: black;
+.facultatif.add:hover {
+  /*only buttons on non-incontournable elements*/
+  background-color: rgb(222, 224, 234);
+  color: black;
 }
 
-
-/*-------------------- DARK MODE --------------------*//*-------------------- DARK MODE --------------------*//*-------------------- DARK MODE --------------------*/
+/*-------------------- DARK MODE --------------------*/ /*-------------------- DARK MODE --------------------*/ /*-------------------- DARK MODE --------------------*/
 .dark-mode {
-	background-color: black;
-	color: white;
-  }
+  background-color: black;
+  color: white;
+}
 
-  /*- Bouton darck mode -*/
+/*- Bouton darck mode -*/
 .dark-mode #darkMode {
-	background-color: rgb(8, 26, 80);
-	color: white;
-	border-color: white;	
+  background-color: rgb(8, 26, 80);
+  color: white;
+  border-color: white;
 }
 .dark-mode #darkMode:hover {
-	border-color: white;
-	background-color: rgb(249, 252, 255);
-	color: black;
+  border-color: white;
+  background-color: rgb(249, 252, 255);
+  color: black;
 }
 
 /*-------------------- BONNES PRATIQUES --------------------*/
 .dark-mode article {
-	border-color: rgb(219, 219, 219);
-  }
-.dark-mode .BASKET {									
-	background-color: rgb(8, 26, 80);
-	border-color: rgb(8, 26, 80);	
-	color: white;
+  border-color: rgb(219, 219, 219);
+}
+.dark-mode .BASKET {
+  background-color: rgb(8, 26, 80);
+  border-color: rgb(8, 26, 80);
+  color: white;
 }
 .dark-mode .incontournable {
-	border-color: rgb(188, 150, 26);
+  border-color: rgb(188, 150, 26);
 }
-.dark-mode .facultatif.add:hover { /*only buttons on non-incontournable elements*/
-	background-color: rgb(5, 18, 57);
-	color: white;
-}
-
-
-/* Fenetre modale */
-.modal.btn {
-	padding: 10px 14px;
-	font-size: 18px;
-	margin: 100px auto;
-	display: block;
-	min-width: 150px;
-	cursor: pointer;
-
+.dark-mode .facultatif.add:hover {
+  /*only buttons on non-incontournable elements*/
+  background-color: rgb(5, 18, 57);
+  color: white;
 }
 
-.modal-container {
-display: none;
-position: fixed;
-top: 0;
-width: 100vw;
-height: 100vh;
+table,
+tr,
+td {
+  border: 1px solid;
 }
-
-.modal-container.active {
-	display: block; 
-}
-
-.overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #333333d3;
-}
-
-.modal {
-	width: 95%;
-	max-width: 500px;
-	min-width: 300px;
-	padding: 30px;
-	background: #fff;
-	border-radius: 5px;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.close-modal {
-	padding: 8px 10px;
-	border: none;
-	border-radius: 5px;
-	font-size: 18px;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	cursor: pointer;
-	background: #ff365e;
-	color: #fff;
-
-}
-
-.modal h1 {
-	margin-bottom: 10px;
-	font-family: Montserrt, sans-serif;
-	font-weight: 500;
-}
-.modal p {
-	line-height: 1.4;
-	margin-bottom: 10px;
-}
-
-/* End Fenetre modale */
