@@ -1,4 +1,4 @@
-
+json = new Array();
 fetch("data/cleaned-data.json")
   .then((res) => {
     return res.json();
@@ -53,7 +53,24 @@ fetch("data/cleaned-data.json")
       }
       document.getElementById(ev.target.id).classList.toggle("BASKET");
     }
+  })
+/* Ajout ; 
+.then((res) => {
+  json.forEach((bp) => {
+
+    if (localStorage.getItem(bp["ID"]) === null) {
+
+    }
+
+    function addDetails(ev) {
+      if (localStorage.getItem(ev.target.id) === null) {
+        details.appendChild(
+          document.createTextNode(bp["Priorité"] + " " + bp["acteurs"])
+        );
+      }
+    }
   });
+}); /* Ajout */
 
 function filterBP(filter) {
   
@@ -76,3 +93,16 @@ function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+/* Ajout */
+const modalContainer = document.querySelector(".modal-container");
+const modalTriggers = document.querySelectorAll(".modal-trigger");
+
+modalTriggers.forEach(trigger => trigger.addEventListener("click", toggleModal))
+
+function toggleModal() {
+  modalContainer.classList.toggle("active")
+}
+
+
+/* Ajout */
