@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tool to monitor your website development project">
 
-
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/general.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/general.min.css" media="print">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" type="text/css" href="./css/general.css" media="print">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
     
     <title>Gestion bonnes pratiques éco-conception</title>
@@ -17,38 +15,32 @@
 <body id = "body">
     <main id="main">
         <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
-        <article class="example">
-            CATEGORIE Recommandation
-        </article>
        
         
-        <div class="modal-container">
-            <div class="overlay modal-trigger"></div>
-            <div class="modal">
-                <button class="close-modal trigger">X</button>
-                <h1>Détails des bonnes pratiques sélectionnées</h1>
-                <p>Lorem ipsum dolor sit, 
-                    amet consectetur adipisicing elit.</p>
-            </div>
+        
+        <div id="filter_bar">
+            <h1>FILTRES</h1>
+            <button id="darkMode" onClick="darkMode()">Dark/Light Mode</button>
+            <button class="button_filter" onclick="filterBP('ALL')">Tout</button>
+            <button class="button_filter" onclick="filterBP('ARCHITECTURE')">Architecture</button>
+            <button class="button_filter" onclick="filterBP('BACKEND')">Backend</button>
+            <button class="button_filter" onclick="filterBP('CONTENUS')">Contenus</button>
+            <button class="button_filter" onclick="filterBP('FRONTEND')">Frontend</button>
+            <button class="button_filter" onclick="filterBP('HERBERGEMENT')">Hebergement</button>
+            <button class="button_filter" onclick="filterBP('SPECIFICATIONS')">Specifications</button>
+            <button class="button_filter" onclick="filterBP('STRATEGIE')">Stratégie</button>
+            <button class="button_filter" onclick="filterBP('UX/UI')">UX/UI</button>
+            <button class="button_filter" onclick="filterBP('BASKET')">*Panier*</button>
         </div>
-
-        <button class="button_filter" onclick="filterBP('ARCHITECTURE')">ARCHITECTURE</button>
-        <button class="button_filter" onclick="filterBP('BACKEND')">BACKEND</button>
-        <button class="button_filter" onclick="filterBP('CONTENUS')">CONTENUS</button>
-        <button class="button_filter" onclick="filterBP('FRONTEND')">FRONTEND</button>
-        <button class="button_filter" onclick="filterBP('HERBERGEMENT')">HERBERGEMENT</button>
-        <button class="button_filter" onclick="filterBP('SPECIFICATIONS')">SPECIFICATIONS</button>
-        <button class="button_filter" onclick="filterBP('STRATEGIE')">STRATEGIE</button>
-        <button class="button_filter" onclick="filterBP('UX/UI')">UX/UI</button>
-        <button class="button_filter" onclick="filterBP('ALL')">All</button>
-        <button class="button_filter" onclick="filterBP('PANIER')">Panier</button>
-        <button class="modal-btn modal-trigger">Détails</button>   
-     
-
+        
         <div id="excel_data"></div>
-        <!--<button id="darkMode">Toggle dark mode</button>-->
         <!--<button id="clickme">click to display stoage</button>-->
 
+
+
+        
+        
+       
     </main>
 </body>
 <script src="./javascript/fetch-json.js"></script>
