@@ -1,7 +1,7 @@
 # Training-D4G
 ## Explication
 Project de développement web pour s'entrainer au challenge Design4Green (https://design4green.org/).
-Sujet de ce projet : développer une interface de suivi de l'éco-conception d'un projet web. (plus d'information dans le dossier "sujet" du repo)
+Sujet de ce projet : développer une interface de suivi de l'éco-conception d'un projet web. (plus d'information dans le dossier "sujet" du repo). Le dossier "sujet" n'était pas présent lors du rendu du projet.
 
 ## Partie obligatoire pour le rendu du projet
 Lors de la création du site, nous avons host le site sur un IIS. Nous avons pu configurer l'IIS pour le rendre plus "green":
